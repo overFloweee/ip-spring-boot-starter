@@ -1,7 +1,6 @@
-package cn.hjw.properties;
+package com.hjw.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.context.annotation.Import;
 import org.springframework.stereotype.Component;
 
 @Component("ipProperties")

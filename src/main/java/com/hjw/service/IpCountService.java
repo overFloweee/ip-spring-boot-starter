@@ -1,4 +1,4 @@
-package cn.hjw.service;
+package com.hjw.service;
 
 public interface IpCountService
 {

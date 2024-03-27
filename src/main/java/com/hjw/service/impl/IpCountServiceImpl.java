@@ -1,7 +1,7 @@
-package cn.hjw.service.impl;
+package com.hjw.service.impl;
 
-import cn.hjw.properties.IpProperties;
-import cn.hjw.service.IpCountService;
+import com.hjw.properties.IpProperties;
+import com.hjw.service.IpCountService;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;

@@ -1,8 +1,7 @@
-package cn.hjw.autoConfig;
+package com.hjw.autoConfig;
 
-import cn.hjw.properties.IpProperties;
-import cn.hjw.service.impl.IpCountServiceImpl;
-import org.springframework.boot.context.properties.EnableConfigurationProperties;
+import com.hjw.properties.IpProperties;
+import com.hjw.service.impl.IpCountServiceImpl;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Import;
 import org.springframework.scheduling.annotation.EnableScheduling;

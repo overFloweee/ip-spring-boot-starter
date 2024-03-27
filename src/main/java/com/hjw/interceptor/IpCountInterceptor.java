@@ -1,12 +1,11 @@
-package cn.hjw.interceptor;
+package com.hjw.interceptor;
 
-import cn.hjw.service.impl.IpCountServiceImpl;
+import com.hjw.service.impl.IpCountServiceImpl;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
-import org.springframework.web.servlet.ModelAndView;
 
 @Component
 public class IpCountInterceptor implements HandlerInterceptor
